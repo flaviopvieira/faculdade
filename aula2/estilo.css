@@ -1,0 +1,49 @@
+h1{
+    color: #ffffff;
+    background-color: black;
+}
+
+/*tira as bolinhas pretas, e letras maiusculas e posciona
+a lista*/
+nav#Menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -18px;
+    left: 270px;
+
+}
+
+/* coloca toda coluna em uma única linha*/
+nav#Menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 4px;
+    /*suavisa a mudança de cor do botão*/
+    transition: background-color 1s;
+
+   
+}
+
+/*muda a cor do botão quando passa o mouse*/
+nav#Menu li:hover{
+
+    background-color: #00cc00;
+
+}
+
+/*apaga os textos h1 na página*/
+nav#Menu h1{
+
+    display: none;
+}
+
+
+/*mudar a cor da ancora ou seja, dos links*/
+nav#Menu a:hover{
+      
+    color: #ffffff;
+    text-decoration:none;
+
+}
